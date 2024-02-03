@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; 
+    background-image: url('https://www.seekpng.com/png/full/86-866288_heart-transparent-love-wallpaper-background-heart-background.png'); 
+    background-size: cover;
+    /* background-position: center; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.loveImg {
+    max-width: 70%;
+    margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.proposal{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+@media screen and (max-width: 400px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5; 
+        background-image: url('https://www.seekpng.com/png/full/86-866288_heart-transparent-love-wallpaper-background-heart-background.png'); 
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container {
+        padding: 20px;
+        border-radius: 20px;
+        width: 100px;
+        height: 300px;
+    }
+
+    .loveImg {
+        max-width: 60%;
+    }
+
+    .proposal {
+        font-size: 18px;
+    }
+}
